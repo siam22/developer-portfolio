@@ -4,8 +4,9 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 .text-primary {
@@ -17,7 +18,7 @@ nav {
     border-radius: 5px;
     size: 50px;
     height: 64px;
-    width: 150px;
+    width: 250px;
     border: 0;
     color: white;
     font-size: 20px;
@@ -39,11 +40,25 @@ nav > ul {
 }
 
 nav li {
-    font-style: none;
+    list-style: none;
     margin-right: 50px;
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile {
+    width: 380px;
 }
